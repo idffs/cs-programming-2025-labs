@@ -1,1 +1,2 @@
-n = input('Wite number: ')
+s = input('Write number: ')
+s = int(s)
