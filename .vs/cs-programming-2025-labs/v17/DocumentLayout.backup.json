@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\lab3\\lab3_6.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Labs\\lab3\\lab3_6.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\lab3\\lab3_2.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Labs\\lab3\\lab3_2.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\lab3\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Labs\\lab3\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\lab3\\lab3_6.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Labs\\lab3\\lab3_6.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\lab3\\lab3_7.py||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -31,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Labs\\lab3\\lab3_3.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\lab3\\lab3_2.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Labs\\lab3\\lab3_2.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\lab3\\lab3_1.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Labs\\lab3\\lab3_1.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,20 +67,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "lab3_2.py",
               "DocumentMoniker": "C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\lab3\\lab3_2.py",
               "RelativeDocumentMoniker": "Labs\\lab3\\lab3_2.py",
               "ToolTip": "C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\lab3\\lab3_2.py",
               "RelativeToolTip": "Labs\\lab3\\lab3_2.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-10-06T19:10:46.632Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "lab3_3.py",
               "DocumentMoniker": "C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\lab3\\lab3_3.py",
               "RelativeDocumentMoniker": "Labs\\lab3\\lab3_3.py",
@@ -88,12 +88,11 @@
               "RelativeToolTip": "Labs\\lab3\\lab3_3.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-10-06T19:10:46.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-06T19:10:46.694Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "lab3_4.py",
               "DocumentMoniker": "C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\lab3\\lab3_4.py",
               "RelativeDocumentMoniker": "Labs\\lab3\\lab3_4.py",
@@ -101,12 +100,11 @@
               "RelativeToolTip": "Labs\\lab3\\lab3_4.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-10-06T19:10:46.763Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-06T19:10:46.763Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "lab3_5.py",
               "DocumentMoniker": "C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\lab3\\lab3_5.py",
               "RelativeDocumentMoniker": "Labs\\lab3\\lab3_5.py",
@@ -114,25 +112,24 @@
               "RelativeToolTip": "Labs\\lab3\\lab3_5.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-10-06T19:10:46.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-06T19:10:46.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "lab3_6.py",
               "DocumentMoniker": "C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\lab3\\lab3_6.py",
               "RelativeDocumentMoniker": "Labs\\lab3\\lab3_6.py",
               "ToolTip": "C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\lab3\\lab3_6.py",
               "RelativeToolTip": "Labs\\lab3\\lab3_6.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-10-06T19:10:46.434Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "lab3_7.py",
               "DocumentMoniker": "C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\lab3\\lab3_7.py",
               "RelativeDocumentMoniker": "Labs\\lab3\\lab3_7.py",
@@ -140,12 +137,11 @@
               "RelativeToolTip": "Labs\\lab3\\lab3_7.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-10-06T19:10:46.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-06T19:10:46.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "lab3_8.py",
               "DocumentMoniker": "C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\lab3\\lab3_8.py",
               "RelativeDocumentMoniker": "Labs\\lab3\\lab3_8.py",
@@ -153,8 +149,7 @@
               "RelativeToolTip": "Labs\\lab3\\lab3_8.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-10-06T19:10:46.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-06T19:10:46.568Z"
             },
             {
               "$type": "Document",
