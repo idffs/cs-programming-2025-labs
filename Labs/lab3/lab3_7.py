@@ -1,5 +1,8 @@
-w = input('Write any word: ')
+w = input('Type any word: ')
 s = ''
-for i in range(1, len(w)+1):
-    s += f'w[i]' + f'{i}'
-    print(s)
+l = len(w)
+e = 1
+for i in range(0, l):
+    s += f'{w[i]}' + f'{e}'
+    e += 1
+print(s)
