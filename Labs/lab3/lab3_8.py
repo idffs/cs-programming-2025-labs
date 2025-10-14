@@ -1,5 +1,5 @@
 while True:
-    user = input('Write 2 numbers: ')
+    user = input('Type 2 numbers separated by a space: ')
     s, d = map( int, user.split())
     print(s + d)
 
