@@ -1,4 +1,4 @@
-ipu = input('Write number: ')
+ipu = input('Type number: ')
 ipu = int(ipu)
 f = 1
 while ipu > 1:
