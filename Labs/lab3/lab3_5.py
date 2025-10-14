@@ -1,4 +1,4 @@
-a = 21
+a = 20
 while a != 0:
-    a -= 1
     print(a)
+    a -= 1
