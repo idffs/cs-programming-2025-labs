@@ -1,5 +1,4 @@
 input_number = input('Число от 1 до 9: ')
-int(input_number)
 if int(input_number) > 0 and int(input_number) < 10:
     for i in range(1, 11):
         a = (f'{input_number} * {i} = {int(input_number) * i}')
