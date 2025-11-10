@@ -13,4 +13,4 @@ elif user > 10000:
     print('Your discount: 15%')
     print(f'Price is {user * 0.85}')
 else:
-    print('What is this suppose to mean?')
+    print('Error: What is this suppose to mean?')
