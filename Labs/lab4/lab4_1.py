@@ -5,4 +5,4 @@ try:
     else:
         print('Conditioner is on')
 except ValueError:
-    print('Error: Not number ')
+    print('Error: Not numeric value')
