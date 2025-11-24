@@ -1,15 +1,17 @@
+print('Use english layout')
 user = input('Type your password: ')
-l = int(len(user))
+l = len(user)
 list1 = []
-f1 = 'No lowercase letter'
+list2 = []
+f1 = 'no lowercase character'
 f11 = False
-f2 = 'No uppercase letter'
+f2 = 'no uppercase character'
 f22 = False
-f3= 'No number'
+f3= 'no number'
 f33 = False
-f4 = 'No special symbol'
+f4 = 'no special(allowed) character'
 f44 = False
-p = 'Password aint strong. List of disadvantages:'
+p = 'Password aint strong. Theres no:'
 if l >= 8:
     for i in range(l):
         list1.append(int(ord(user[i])))
@@ -25,14 +27,14 @@ if l >= 8:
     if f11 == f22 == f33 == f44 == True:
         exit('Password is strong enough')
     else:
-        print(p)
         if f11 == False: 
-            print(f1)
+            list2.append(f1)
         if f22 == False:
-            print(f2)
+            list2.append(f2)
         if f33 == False:
-            print(f3)
+            list2.append(f3)
         if f44 == False:
-            print(f4)
+            list2.append(f4)
+        print(p, ', '.join(list2))
 else:
-    print('Password need at least 8 symbols')
+    print('Password need at least 8 characters')
