@@ -1,5 +1,5 @@
 try:
-    user = input('Type number to know will divisible by 6 or not: ')
+    user = input('Type number to know will it divisible by 6 or not: ')
     q = len(str(user))
     w = 0
     for i in range(q):
@@ -9,5 +9,4 @@ try:
     else:
         print('This number wont divisible by 6')
 except ValueError:
-    print('Error: Are you sure this is a number?')
-    
+    print('Error: Needs numeric value')
