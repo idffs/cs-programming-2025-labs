@@ -7,4 +7,4 @@ try:
     else:
         print(f'{user} isnt leap year')
 except ValueError:
-    print('Error: Type a year, not something else')
+    print('Error: Type a year in numeric value, not a word or smth else')
