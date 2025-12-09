@@ -12,7 +12,7 @@ try:
     elif user >= 5000 and user <10000:
         print(f'Your discount: 10%')
         print(f'Price is {user * 0.9}')
-    elif user > 10000:
+    elif user >= 10000:
         print('Your discount: 15%')
         print(f'Price is {user * 0.85}')
 except ValueError:
