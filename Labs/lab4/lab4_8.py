@@ -2,7 +2,7 @@ try:
     user = int(input('Type your buy cost: '))
 
     if user < 0:
-        print('Buy cost cant be negative')
+        print('Buy cost can\'t be negative')
     elif 0 <= user < 1000:
         print('Your discount: 0%')
         print(f'Price is {user}')
