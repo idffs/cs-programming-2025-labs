@@ -1,6 +1,10 @@
 print('Works with numeric value from 1 to 22')
 try:
-    user = int(input('Write dog years old: '))
+    user = input('Write dog years old: ')
+    if '.' in user or ',' in user:
+        print('Error: allowed only integer')
+        exit()
+    user = int(user)
     if user < 1:
         print('Error: Need more than 0')
     elif user > 22:
