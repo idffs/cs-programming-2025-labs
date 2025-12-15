@@ -1,11 +1,15 @@
 list1 = [4, 6, 8, 9, 10]
 list2 = [2, 3, 5, 7]
 try:
-    user = int(input('Type any number: '))
+    user = input('Type any number: ')
+    if '.' in user or ',' in user:
+        print('Error: allowed only integer')
+        exit()
+    user = int(user)
     if user == 1 or user == 0:
         print(f'{user} - not simple or composite number')
     elif user < 0:
-        print('Negative number cant be simple or composite number')
+        print('Negative number can\'t be simple or composite number')
     else:
         b = 2
         a = int(user ** 0.5)
