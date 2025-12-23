@@ -2,6 +2,7 @@
 list1 = []
 for i in range(1, 11):
     list1.append(i)
+print(list1)
 l = len(list1)
 for i in range(l):
     if list1[i] == 3 in list1:
