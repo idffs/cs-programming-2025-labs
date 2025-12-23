@@ -25,6 +25,12 @@ def trans(a, b, c):
     return a
 try:
     a = float(input('Enter Value:'))
+    if a < 0:
+        print('Time can\'t be negative')
+        exit()
+    elif a == 0:
+        print('0 is the same in any other time')
+        exit()
 except ValueError:
     print('Invalid Input(Allowed - 15, 13.5, etc. )')
     exit()
@@ -34,7 +40,8 @@ try:
 except ValueError:
     print('Invalid Input(Allowed - ms, sec, m, h)')
     exit()
-print(f'Entered data:{a} {b}')
+print(f"""Entered data:
+{a} {b}""")
 
-print('Output data:')
-print(f'{trans(a, b, c):.1f} {c}')
+print(f"""Output data:
+{trans(a, b, c):.1f} {c}""")
