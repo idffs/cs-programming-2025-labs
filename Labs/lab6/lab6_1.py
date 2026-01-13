@@ -1,10 +1,11 @@
+# -*- coding: cp1251 -*-
 print('Works with ms, sec, min, h (milliseconds, seconds, minutes, hours)')
+forms = ('ms', 'sec', 'min', 'h')
 ms = 'ms'
 sec = 'sec'
 m = 'min'
 h = 'h'
 def trans(a, b, c):
-    int(a)
     if b == ms:
         a = a
     elif b == sec:
@@ -34,14 +35,16 @@ try:
 except ValueError:
     print('Invalid Input(Allowed - 15, 13.5, etc. )')
     exit()
-try:
-    b = str(input('Enter Time Value that into transform:'))
-    c = str(input('Enter Time Value that in end transform:'))
-except ValueError:
-    print('Invalid Input(Allowed - ms, sec, m, h)')
+
+
+b, c = map(str, input('Enter time transform(like |sec h|, |h min|, etc.): ').split())
+if b not in forms or c not in forms:  
+    print('Invalid Input(Allowed - ms, sec, min, h)')
     exit()
+
+print("\033[H\033[J", end="") # \033[H перемещает курсор в верхний левый угол экрана, \033[J очищает экран после этого
 print(f"""Entered data:
 {a} {b}""")
 
 print(f"""Output data:
-{trans(a, b, c):.1f} {c}""")
+{trans(a, b, c):.3f} {c}""")
