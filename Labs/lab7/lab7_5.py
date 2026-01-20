@@ -19,6 +19,5 @@ reports = [
 ]
 
 filtered = list(filter(lambda r: 'http' in r['text'] or 'https' in r['text'], reports))
-
 res = list(map(lambda r: { 'author': r['author'],  'text': re.sub(r'https?://[^\s]+', '[ÄÀÍÍÛÅ ÓÄÀËÅÍÛ]', r['text'])}, filtered))
 print(res)
