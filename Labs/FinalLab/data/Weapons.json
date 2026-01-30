@@ -1,0 +1,30 @@
+[
+  {
+    "id": "primary_club",
+    "name": "Дубина",
+    "type": "weapons",
+    "damage": 2,
+    "value": 4,
+    "description": "Обыкновенная дубина"
+  },
+    
+  {
+    "id": "rusty_sword",
+    "name": "Ржавый меч",
+    "type": "weapons",
+    "damage": 3,
+    "value": 6,
+    "description": "Ржавый меч.. Лучше чем ничего"
+  },
+
+  {
+    "id": "stick",
+    "name": "Палка",
+    "type": "weapons",
+    "damage": 1,
+    "value": 0,
+    "description": "Серьёзно? ПРОСТО ПАЛКА?!?",
+    "attack_effect": 4,
+    "effect":  "🔴🔘"
+  }
+]
