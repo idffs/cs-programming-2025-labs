@@ -1,0 +1,37 @@
+{
+	"races": [
+		{
+			"id": "human",
+			"name": "Человек",
+			"attributes": {
+				"strength": [ 2, 4 ],
+				"agility": [ 3, 5 ],
+				"vitality": [ 3, 6 ],
+				"Weight": [ 50, 80 ],
+				"Height": [ 150, 190 ]
+			}	
+		},
+		{
+			"id": "elf",
+			"name": "Эльф",
+			"attributes": {
+				"strength": [ 2, 3 ],
+				"agility": [ 4, 8 ],
+				"vitality": [ 3, 8 ],
+				"Weight": [ 30, 60 ],
+				"Height": [ 180, 200 ]
+			}	
+		},
+		{
+			"id": "dwarf",
+			"name": "Дворф",
+			"attributes": {
+				"strength": [ 3, 7 ],
+				"agility": [ 1, 4 ],
+				"vitality": [ 2, 6 ],
+				"Weight": [ 70, 110 ],
+				"Height": [ 100, 150 ]
+			}
+		}
+	]
+}
