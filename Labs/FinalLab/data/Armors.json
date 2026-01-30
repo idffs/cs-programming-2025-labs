@@ -1,0 +1,30 @@
+[
+  {
+    "id": "leather_armor",
+    "name": "Кожанка",
+    "type": "armors",
+    "defense": 2,
+    "value": 10,
+    "description": "Кожанный доспех"
+  },
+
+  {
+    "id": "rusty_armor",
+    "name": "Ржавый доспех",
+    "type": "armors",
+    "defense": 3,
+    "value": 15,
+    "effect": -2,
+    "description": "Немного лучше кожанки"
+  },
+
+  {
+    "id": "leaf",
+    "name": "Листочек",
+    "type": "armors",
+    "defense": -1,
+    "value": 0,
+    "effect": "🔘🔴",
+    "description": "и ЭТО вы называете бронёй?"
+  }
+]
