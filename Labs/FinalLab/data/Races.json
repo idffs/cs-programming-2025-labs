@@ -28,7 +28,7 @@
 			"attributes": {
 				"strength": [ 3, 7 ],
 				"agility": [ 1, 4 ],
-				"vitality": [ 1, 6 ],
+				"vitality": [ 2, 6 ],
 				"Weight": [ 70, 110 ],
 				"Height": [ 100, 150 ]
 			}
