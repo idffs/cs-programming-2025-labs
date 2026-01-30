@@ -1,0 +1,26 @@
+{
+  "name": "",
+  "race": "",
+  "level": 0,
+  "experience": 0,
+  "stats": {
+    "strength": 0,
+    "agility": 0,
+    "vitality": 0,
+    "Weight": 0,
+    "Height":0,
+    "status_effect": []
+  },
+  "max_health": 0,
+  "health": 0,
+  "armor": 0,
+  "damage": 0,
+  "skills": [],
+  "inventory": [],
+  "equipment": {
+    "armor": "None",
+    "weapon": "None"
+  },
+  "gold": 0,
+  "stat_points": 0
+}
