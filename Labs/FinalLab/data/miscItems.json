@@ -1,0 +1,14 @@
+{
+  "misc_items": [
+    {
+      "id": "goblin_cloth",
+      "name": "Грязная гоблинская ткань",
+      "type": "misc"
+    },
+    {
+      "id": "bone",
+      "name": "Кость",
+      "type": "misc"
+    }
+  ]
+}
