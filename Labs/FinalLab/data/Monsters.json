@@ -1,0 +1,104 @@
+{
+  "monsters": [
+    {
+      "id": "goblin",
+      "name": "Гоблин",
+      "level": 1,
+      "health": 15,
+      "maxHealth": 15,
+      "attack": 3,
+      "defense": 2,
+      "experience": 25,
+      "goldDrop": 5,
+      "itemsDrop": [
+        {
+          "item": "primary_club",
+          "chance": 0.1
+        },
+        {
+          "item": "goblin_cloth",
+          "chance": 0.4
+        },
+        {
+          "item": "potion_01",
+          "chance": 0.2
+        }
+      ],
+      "spawnChance": 0.75,
+      "location": "combat_01"
+    },
+    {
+      "id": "goblin_adept",
+      "name": "Усиленный гоблин",
+      "level": 1,
+      "health": 20,
+      "maxHealth": 20,
+      "attack": 4,
+      "defense": 3,
+      "experience": 40,
+      "goldDrop": 10,
+      "itemsDrop": [
+        {
+          "item": "primary_club",
+          "chance": 0.25
+        },
+        {
+          "item": "goblin_cloth",
+          "chance": 0.5
+        },
+        {
+          "item": "potion_02",
+          "chance": 0.3
+        }
+      ],
+      "spawnChance": 0.4,
+      "location": "combat_03"
+    },
+    {
+      "id": "skeleton",
+      "name": "Оживший костяк",
+      "level": 1,
+      "health": 10,
+      "maxHealth": 10,
+      "attack": 2,
+      "defense": 1,
+      "experience": 10,
+      "goldDrop": 2,
+      "itemsDrop": [
+        {
+          "item": "bone",
+          "chance": 0.5
+        },
+        {
+          "item": "potion_01",
+          "chance": 0.1
+        }
+      ],
+      "spawnChance": 0.6,
+      "location": "combat_02"
+    },
+    {
+      "id": "skeleton_adept",
+      "name": "Оживший ржавый костяк",
+      "level": 1,
+      "health": 12,
+      "maxHealth": 12,
+      "attack": 3,
+      "defense": 2,
+      "experience": 20,
+      "goldDrop": 5,
+      "itemsDrop": [
+        {
+          "item": "bone",
+          "chance": 0.5
+        },
+        {
+          "item": "potion_01",
+          "chance": 0.1
+        }
+      ],
+      "spawnChance": 0.25,
+      "location": "combat_02"
+    }
+  ]
+}
