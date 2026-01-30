@@ -1,0 +1,92 @@
+{
+  "rooms": [
+    {
+      "id": "junction_01",
+      "name": "Заросший коридор",
+      "is_junction": true,
+      "chance": 0.4,
+      "visibility": "known",
+      "left_branch": {
+        "id": "combat_01",
+        "name": "Боевая комната",
+        "type": "combat",
+        "monster": "goblin",
+        "visibility": "known"
+      },
+      "right_branch": {
+        "id": "chest_01",
+        "name": "Комната с тайником",
+        "type": "chest",
+        "loot": [
+          "Малое зелье лечения",
+          "золото (5)"
+        ],
+        "visibility": "unknown"
+      }
+    },
+    {
+      "id": "junction_02",
+      "name": "Каменный коридор",
+      "is_junction": true,
+      "chance": 0.25,
+      "visibility": "unknown",
+      "left_branch": {
+        "id": "rest_01",
+        "name": "Комната отдыха",
+        "type": "rest",
+        "visibility": "known"
+      },
+      "right_branch": {
+        "id": "combat_02",
+        "name": "Боевая холодная комната",
+        "type": "combat",
+        "monster": "skeleton",
+        "visibility": "unknown"
+      }
+    },
+    {
+      "id": "junction_03",
+      "name": "Тёмный коридор",
+      "is_junction": true,
+      "chance": 0.15,
+      "visibility": "known",
+      "left_branch": {
+        "id": "combat_03",
+        "name": "Боевая гоблинская комната",
+        "type": "combat",
+        "monster": "goblin_adept",
+        "visibility": "known"
+      },
+      "right_branch": {
+        "id": "rest_02",
+        "name": "Комната отдыха",
+        "type": "rest",
+        "visibility": "unknown"
+      }
+    },
+    {
+      "id": "junction_04",
+      "name": "Тёмный перекрёсток",
+      "is_junction": true,
+      "chance": 0.1,
+      "visibility": "unknown",
+      "left_branch": {
+        "id": "chest_02",
+        "name": "Комната с сокровищем",
+        "type": "chest",
+        "loot": [
+          "Большое зелье лечения",
+          "золото (15)"
+        ],
+        "visibility": "known"
+      },
+      "right_branch": {
+        "id": "combat_04",
+        "name": "Комната переговоров",
+        "type": "combat",
+        "monster": "skeleton_adept",
+        "visibility": "unknown"
+      }
+    }
+  ]
+}
