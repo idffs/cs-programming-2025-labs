@@ -1,0 +1,11 @@
+{
+  "game_settings": {
+    "start_floor": 1,
+    "rooms_per_floor": 11,
+    "monster_stat_per_floor": 1.2,
+    "scale":  1,
+    "exp_per_level": 125,
+    "stat_points_per_level": 2,
+	"max_inventory_slots": 5
+  }
+}
