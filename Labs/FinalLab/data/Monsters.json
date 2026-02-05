@@ -95,6 +95,10 @@
         {
           "item": "potion_01",
           "chance": 0.1
+        },
+        {
+          "item": "rusty_sword",
+          "chance":  0.05
         }
       ],
       "spawnChance": 0.25,
