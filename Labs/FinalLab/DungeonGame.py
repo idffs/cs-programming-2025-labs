@@ -170,7 +170,7 @@ class Game:
         right = self.current_room["right_branch"]
 
         if self.current_room["visibility"] == "unknown":
-            print("Темнота скрывает, что находится впереди!")
+            print("Темнота не позволяет определить что находится впереди")
         else:
             print(f"1. Налево: {left["name"]} ({left["type"]})")
             print(f"2. Направо: {right["name"]} ({right["type"]})")
@@ -179,14 +179,14 @@ class Game:
     def choose_direction(self) -> int:
         while True:
             try:
-                choice = input("Выберите направление (1 — налево, 2 — направо): ").strip()
+                choice = input("Выберите направление (1 — налево, 2 — направо): ").strip()  
                 if choice in ["1", "2"]:
                     return int(choice)
                 else:
                     print("Неверный выбор. Введите 1 или 2.")
             except ValueError:
                 print("Введите число 1 или 2.")
-
+                    
     def increase_monster_difficulty(self):
         multiplier = self.settings["monster_stat_per_floor"]
 
@@ -229,10 +229,6 @@ class Game:
             print(f"Вы получили {stat_points} очков характеристик для распределения.")
             self.distribute_stats(stat_points)
 
-        self.player["max_health"] = self.player["stats"]["vitality"] * 5
-        self.update_armor_from_defense()
-        self.player["damage"] = ( self.player["stats"]["strength"] + self.get_weapon_damage() + 1 )
-
     def distribute_stats(self, skill_points: int):
         print(f"\n=== Распределение очков навыков (всего {skill_points} очков) ===")
         print("1 — Живучесть")
@@ -255,10 +251,7 @@ class Game:
                 self.player["stats"]["vitality"] += 1
                 health_increase = 5
                 self.player["max_health"] += health_increase
-                self.player["health"] = min(
-                    self.player["health"] + health_increase,
-                    self.player["max_health"]
-                )
+                self.player["health"] = min(self.player["health"] + health_increase, self.player["max_health"])
                 print(f"+1 к Живучести! Максимальное здоровье увеличено на {health_increase}.")
 
             elif choice == "2":
@@ -269,20 +262,14 @@ class Game:
                 self.player["stats"]["strength"] += 1
                 damage_increase = 1
                 self.player["damage"] += damage_increase
-                print(f"+1 к Силе! Урон увеличен на {damage_increase}.")
+                print(f"+1   к Силе! Урон увеличен на {damage_increase}.")
 
             skill_points -= 1
 
         self.update_armor_from_defense()
-        self.player["damage"] = (
-            self.player["stats"]["strength"] +
-            self.get_weapon_damage()
-        )
+        self.player["damage"] = (self.player["stats"]["strength"] +self.get_weapon_damage())
         self.player["max_health"] = self.player["stats"]["vitality"] * 5
-        self.player["health"] = min(
-            self.player["health"],
-            self.player["max_health"]
-        )
+        self.player["health"] = min(self.player["health"],self.player["max_health"])
 
     def open_chest(self):
         loot_types = ["gold", "potion", "weapon", "armor"]
@@ -326,8 +313,7 @@ class Game:
     def encounter_monster(self) -> Optional[Dict[str, Any]]:
         possible = [
             m for m in self.monsters
-            if (m.get("location") == self.current_room["id"])
-            and (m["health"] > 0)
+            if (m.get("location") == self.current_room["id"]) 
         ]
         return random.choice(possible) if possible else None
 
@@ -474,10 +460,7 @@ class Game:
             potion_data = self.potions[selected_item["id"]]
             heal_amount = potion_data["heal"]
 
-            self.player["health"] = min(
-                self.player["max_health"],
-                self.player["health"] + heal_amount
-            )
+            self.player["health"] = min(self.player["max_health"],self.player["health"] + heal_amount)
 
             print(f"Вы использовали {potion_data["name"]}!")
             print(f"Восстановлено: {heal_amount} HP")
@@ -521,7 +504,7 @@ class Game:
         print(f"Шанс критического удара: {crit_percent:.1f}%")
 
         print(f"\nХарактеристики:")
-        print(f"  Сила: {self.player["stats"]["strength"]}")
+        print(f"  Сила: {self.player["stats"]["strength"]}")    
         print(f"  Ловкость: {self.player["stats"]["agility"]}")
         print(f"  Живучесть: {self.player["stats"]["vitality"]}")
         print(f"  Вес: {self.player["stats"]["Weight"]}")
@@ -690,9 +673,7 @@ class Game:
             if 0 <= choice < len(weapons):
                 selected_item = weapons[choice]
                 self.player["equipment"]["weapon"] = selected_item["id"]
-                self.player["damage"] = (
-                    self.player["stats"]["strength"] + self.get_weapon_damage()
-                )
+                self.player["damage"] = (self.player["stats"]["strength"] + self.get_weapon_damage())
                 print(f"Экипировано оружие: {self.weapons[selected_item["id"]]["name"]}")
             else:
                 print("Неверный номер.")
@@ -745,10 +726,7 @@ class Game:
                 weapon_data = self.weapons[weapon_id]
                 self.add_item(weapon_id, weapon_data["name"], "weapon")
                 self.player["equipment"]["weapon"] = "None"
-                # ПЕРЕСЧИТЫВАЕМ УРОН БЕЗ ОРУЖИЯ
-                self.player["damage"] = (
-                    self.player["stats"]["strength"] + self.get_weapon_damage()
-                )
+                self.player["damage"] = (self.player["stats"]["strength"] + self.get_weapon_damage())
                 print(f"Вы сняли {weapon_data['name']}. Урон изменён.")
             else:
                 print("Нет экипированного оружия")
@@ -889,10 +867,6 @@ class Game:
 
         if self.game_over:
             print("\n=== Игра окончена ===")
-            print(f"Вы достигли {self.player["level"]} уровня.")
-            print(f"Набрано опыта: {self.player["experience"]}")
-            print(f"Собранное золото: {self.player["gold"]}")
-
 
 
 if __name__ == "__main__":
