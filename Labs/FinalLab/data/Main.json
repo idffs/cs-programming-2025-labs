@@ -6,6 +6,6 @@
     "scale":  1,
     "exp_per_level": 125,
     "stat_points_per_level": 2,
-	"max_inventory_slots": 5
+	"max_inventory_slots": 7
   }
 }
