@@ -574,7 +574,8 @@ class Game:
             print("1. Использовать зелье")
         if total_displayed > 0:
             print("2. Просмотреть описание предмета")
-        print("3. Вернуться в игру")
+            print("3. Выбросить предмет")
+        print("4. Вернуться в игру")
 
         choice = input("\nВаш выбор\n> ").strip()
 
@@ -587,8 +588,8 @@ class Game:
                     heal_amount = potion_data["heal"]
                     self.player["health"] = min(
                         self.player["max_health"],
-                        self.player["health"] + heal_amount
-                    )
+                self.player["health"] + heal_amount
+            )
                     item["count"] -= 1
                     if item["count"] <= 0:
                         self.player["inventory"].remove(item)
@@ -609,7 +610,6 @@ class Game:
                 item = all_items[item_num]
                 item_id = item["id"]
 
-
                 item_data = None
                 if item_id in self.potions:
                     item_data = self.potions[item_id]
@@ -626,10 +626,40 @@ class Game:
             except ValueError:
                 print("Введите число!")
 
-        elif choice == "3":
+        elif choice == "3" and total_displayed > 0:
+            try:
+                item_num = int(input(f"Введите номер предмета для выбрасывания (1–{total_displayed}): ")) - 1
+                if item_num < 0 or item_num >= total_displayed:
+                    print("Неверный номер предмета!")
+                    return
+
+                all_items = potions + weapons + armors + misc_items
+                item = all_items[item_num]
+
+                if item["count"] > 1:
+                    try:
+                        quantity = int(input(f"Сколько штук выбросить? (1–{item['count']}): "))
+                        if 1 <= quantity <= item["count"]:
+                            item["count"] -= quantity
+                            print(f"Вы выбросили {quantity} шт. {item['name']}")
+                            if item["count"] == 0:
+                                self.player["inventory"].remove(item)
+                        else:
+                            print("Некорректное количество!")
+                    except ValueError:
+                        print("Введите число!")
+                else:
+                    self.player["inventory"].remove(item)
+                    print(f"Вы выбросили {item['name']}")
+
+            except ValueError:
+                print("Введите число!")
+
+        elif choice == "4":
             pass
         else:
             print("Некорректный выбор!")
+
 
     def add_item(self, item_id: str, name: str, item_type: str, description: str = ""):
         existing_item = next((i for i in self.player["inventory"] if i["id"] == item_id), None)
@@ -662,8 +692,7 @@ class Game:
         print("\n=== Доступное оружие ===")
         for i, item in enumerate(weapons):
             weapon_data = self.weapons[item["id"]]
-            print(f"{i+1}. {weapon_data["name"]} (Урон: {weapon_data["damage"]})")
-
+            print(f"{i+1}. {weapon_data['name']} (Урон: {weapon_data['damage']})")
 
         try:
             choice = int(input("Выберите оружие (номер, 0 — отмена): ")) - 1
@@ -672,9 +701,10 @@ class Game:
                 return
             if 0 <= choice < len(weapons):
                 selected_item = weapons[choice]
+                self.player["inventory"].remove(selected_item)
                 self.player["equipment"]["weapon"] = selected_item["id"]
                 self.player["damage"] = (self.player["stats"]["strength"] + self.get_weapon_damage())
-                print(f"Экипировано оружие: {self.weapons[selected_item["id"]]["name"]}")
+                print(f"Экипировано оружие: {self.weapons[selected_item['id']]['name']}")
             else:
                 print("Неверный номер.")
         except ValueError:
@@ -697,7 +727,7 @@ class Game:
         print("\n=== Доступная броня ===")
         for i, item in enumerate(armors):
             armor_data = self.armors[item["id"]]
-            print(f"{i+1}. {armor_data["name"]} (Защита: {armor_data["defense"]})")
+            print(f"{i+1}. {armor_data['name']} (Защита: {armor_data['defense']})")
 
         try:
             choice = int(input("Выберите броню (номер, 0 — отмена): ")) - 1
@@ -706,13 +736,15 @@ class Game:
                 return
             if 0 <= choice < len(armors):
                 selected_item = armors[choice]
+                self.player["inventory"].remove(selected_item)
                 self.player["equipment"]["armor"] = selected_item["id"]
                 self.player["armor"] = self.armors[selected_item["id"]]["defense"]
-                print(f"Экипирована броня: {self.armors[selected_item["id"]]["name"]}")
+                print(f"Экипирована броня: {self.armors[selected_item['id']]['name']}")
             else:
                 print("Неверный номер.")
         except ValueError:
             print("Введите число.")
+
 
     def unequip(self):
         print("\n=== Снятие экипировки ===")
