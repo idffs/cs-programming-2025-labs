@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DungeonGame.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\FinalLab\\data\\Monsters.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\Monsters.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\FinalLab\\data\\Rooms.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\Rooms.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\FinalLab\\data\\miscItems.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\miscItems.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -25,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\FinalLab\\data\\Saves.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\Saves.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\FinalLab\\data\\Monsters.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\Monsters.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\FinalLab\\data\\Rooms.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\Rooms.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\FinalLab\\data\\Weapons.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -64,19 +64,15 @@
               "RelativeDocumentMoniker": "DungeonGame.py",
               "ToolTip": "C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\FinalLab\\DungeonGame.py",
               "RelativeToolTip": "DungeonGame.py",
-              "ViewState": "AgIAAFMDAAAAAAAAAAAAAP4BAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAADUCAAAAAAAAAAAAAEACAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2026-01-29T23:19:00.641Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Character.json",
               "DocumentMoniker": "C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\FinalLab\\data\\Character.json",
               "RelativeDocumentMoniker": "data\\Character.json",
@@ -84,12 +80,11 @@
               "RelativeToolTip": "data\\Character.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-29T23:19:22.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-29T23:19:22.52Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Main.json",
               "DocumentMoniker": "C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\FinalLab\\data\\Main.json",
               "RelativeDocumentMoniker": "data\\Main.json",
@@ -97,12 +92,11 @@
               "RelativeToolTip": "data\\Main.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-29T11:06:50.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-29T11:06:50.539Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Saves.json",
               "DocumentMoniker": "C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\FinalLab\\data\\Saves.json",
               "RelativeDocumentMoniker": "data\\Saves.json",
@@ -110,12 +104,11 @@
               "RelativeToolTip": "data\\Saves.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-29T22:05:14.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-29T22:05:14.386Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Races.json",
               "DocumentMoniker": "C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\FinalLab\\data\\Races.json",
               "RelativeDocumentMoniker": "data\\Races.json",
@@ -123,31 +116,30 @@
               "RelativeToolTip": "data\\Races.json",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-04T15:14:05.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T15:14:05.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Monsters.json",
               "DocumentMoniker": "C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\FinalLab\\data\\Monsters.json",
               "RelativeDocumentMoniker": "data\\Monsters.json",
               "ToolTip": "C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\FinalLab\\data\\Monsters.json",
               "RelativeToolTip": "data\\Monsters.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAGgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-01-29T11:06:51.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Rooms.json",
               "DocumentMoniker": "C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\FinalLab\\data\\Rooms.json",
               "RelativeDocumentMoniker": "data\\Rooms.json",
               "ToolTip": "C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\FinalLab\\data\\Rooms.json",
               "RelativeToolTip": "data\\Rooms.json",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-01-29T12:12:10.556Z",
               "EditorCaption": ""
@@ -162,8 +154,7 @@
               "RelativeToolTip": "data\\Weapons.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-29T21:49:25.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-29T21:49:25.45Z"
             },
             {
               "$type": "Document",
@@ -175,8 +166,7 @@
               "RelativeToolTip": "data\\Armors.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-29T11:06:48.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-29T11:06:48.195Z"
             },
             {
               "$type": "Document",
@@ -188,12 +178,11 @@
               "RelativeToolTip": "data\\Potions.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-29T11:06:52.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-29T11:06:52.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "miscItems.json",
               "DocumentMoniker": "C:\\Users\\ignat\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\cs-programming-2025-labs\\Labs\\FinalLab\\data\\miscItems.json",
               "RelativeDocumentMoniker": "data\\miscItems.json",
@@ -201,8 +190,15 @@
               "RelativeToolTip": "data\\miscItems.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-30T00:30:47.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-30T00:30:47.063Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }
